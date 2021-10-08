@@ -2,12 +2,13 @@
   font-family: '{fabistreams_goalbars_fontFamily}', sans-serif;
   margin: 0;
   padding: 0;
-  color: {fabistreams_goalbars_TextColor};
+  color: {fabistreams_goalbars_textColor};
   box-sizing: border-box;
   font-size: {fabistreams_goalbars_goalFontSize}px;
 }
 
 main {
+  color: {fabistreams_goalbars_TextColor};
   box-sizing: border-box;
   position: absolute;
   height: 100%;
