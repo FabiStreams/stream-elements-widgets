@@ -1,0 +1,154 @@
+{
+  "followGoal": {
+    "type": "number",
+    "label": "Follower Goal",
+    "value": 1,
+    "min": 0,
+    "step": 1
+  },
+  "subGoal": {
+    "type": "number",
+    "label": "Subscriber Goal",
+    "value": 1,
+    "min": 0,
+    "step": 1
+  },
+    "fabistreams_goalbars_fontFamily": {
+    "label": "Font Family",
+    "group": "Box Style",
+    "type": "text",
+    "value": "Poppins"
+  },
+    "fabistreams_goalbars_fontSize": {
+    "label": "Font Size (px)",
+    "group": "Box Style",
+    "type": "number",
+    "value": 25,
+    "min": 1,
+    "step": 1
+  },
+    "fabistreams_goalbars_goalFontSize": {
+    "label": "Goal Font Size (px)",
+    "group": "Box Style",
+    "type": "number",
+    "value": 25,
+    "min": 1,
+    "step": 1
+  },
+    "fabistreams_goalbars_barBorderRadius": {
+    "label": "Box Rounded Corner Size (px)",
+    "group": "Box Style",
+    "type": "number",
+    "value": 20,
+    "min": 0,
+    "step": 1
+  },
+    "fabistreams_goalbars_barBoxBorderRadius": {
+    "label": "Bar Rounded Corner Size (px)",
+    "group": "Box Style",
+    "type": "number",
+    "value": 20,
+    "min": 0,
+    "step": 1
+  },
+    "fabistreams_goalbars_textColor": {
+    "type": "text",
+    "label": "Text Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#30f8f1"
+  },
+    "fabistreams_goalbars_backgroundColor": {
+    "type": "text",
+    "label": "Box Background Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#4a0e63"
+  },
+    "fabistreams_goalbars_borderColor": {
+    "type": "text",
+    "label": "Box Border Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#e61a80"
+  },
+    "fabistreams_goalbars_shadowColor": {
+    "type": "text",
+    "label": "Box Shadow Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#e61a80"
+  },
+    "fabistreams_goalbars_barBoxColor": {
+    "type": "text",
+    "label": "Bar Background Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#a54bc6"
+  },
+    "fabistreams_goalbars_barBoxShadowColor": {
+    "type": "text",
+    "label": "Bar Shadow Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#a54bc6"
+  },
+    "fabistreams_goalbars_backgroundBarColor": {
+    "type": "text",
+    "label": "Goal Background Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#dc81fd"
+  },
+    "fabistreams_goalbars_barShadowColor": {
+    "type": "text",
+    "label": "Goal Shadow Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "rgba(255, 255, 255, 0.4)"
+  },
+  
+    "fabistreams_goalbars_completeBarColor": {
+    "type": "text",
+    "label": "Goal Complete Background Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "#dc81fd"
+  },
+    "fabistreams_goalbars_completeBarShadowColor": {
+    "type": "text",
+    "label": "Goal Complete Shadow Color",
+    "group": "Colors",
+    "type": "colorpicker",
+    "value": "rgba(255, 255, 255, 0.4)"
+  },
+    "widgetName": {
+    "label": "Goal Bars v1.0",
+    "group": "About",
+    "type": "hidden",
+    "value": "Chat Leaderboard"
+  },
+  "widgetAuthor": {
+    "label": "Author: Fabi Parpinelli",
+    "group": "About",
+    "type": "hidden",
+    "value": "Fabi_Streams"
+  },
+  "widgetVersion": {
+    "label": "Twitch: twitch.tv/fabi_streams",
+    "group": "About",
+    "type": "hidden",
+    "value": "3.0.6"
+  },
+  "widgetUpdateUrl": {
+    "label": "Instagram: @fabistreams",
+    "group": "About",
+    "type": "hidden",
+    "value": "https://www.instagram.com/fabistreams/"
+  },
+ "widgetHelp": {
+    "label": "Discord: https://bit.ly/discord_fabi",
+    "group": "Help",
+    "type": "hidden"
+  }
+}
