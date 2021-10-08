@@ -1,4 +1,33 @@
 {
+    "fabistreams_goalbars_titileSubs": {
+    "label": "Title Subscribers",
+    "group": "Fields",
+    "type": "text",
+    "value": "Subs"
+},
+  "subGoal": {
+    "type": "number",
+    "label": "Subscriber Goal",
+    "value": 1,
+    "min": 0,
+    "step": 1
+},
+    "fabistreams_goalbars_optionGoalSubs": {
+    "type": "dropdown",
+    "label": "Choose an option Goal Subs:",
+    "value": "total",
+    "options": {
+      "total": "total",
+      "month": "month",
+      "session": "session"
+    }
+  },
+    "fabistreams_goalbars_titileFollows": {
+    "label": "Title Follows",
+    "group": "Fields",
+    "type": "text",
+    "value": "Follows"
+  },  
   "followGoal": {
     "type": "number",
     "label": "Follower Goal",
@@ -6,12 +35,15 @@
     "min": 0,
     "step": 1
   },
-  "subGoal": {
-    "type": "number",
-    "label": "Subscriber Goal",
-    "value": 1,
-    "min": 0,
-    "step": 1
+    "fabistreams_goalbars_optionGoalFollows": {
+    "type": "dropdown",
+    "label": "Choose an option Goal Follows:",
+    "value": "total",
+    "options": {
+      "total": "total",
+      "month": "month",
+      "session": "session"
+    }
   },
     "fabistreams_goalbars_fontFamily": {
     "label": "Font Family",
@@ -35,8 +67,16 @@
     "min": 1,
     "step": 1
   },
-    "fabistreams_goalbars_barBorderRadius": {
+    "fabistreams_goalbars_borderRadius":{
     "label": "Box Rounded Corner Size (px)",
+    "group": "Box Style",
+    "type": "number",
+    "value": 20,
+    "min": 0,
+    "step": 1
+  }, 
+    "fabistreams_goalbars_barBorderRadius": {
+    "label": "Bar Box Rounded Corner Size (px)",
     "group": "Box Style",
     "type": "number",
     "value": 20,
@@ -50,7 +90,7 @@
     "value": 20,
     "min": 0,
     "step": 1
-  },
+  },  
     "fabistreams_goalbars_textColor": {
     "type": "text",
     "label": "Text Color",
@@ -129,7 +169,7 @@
     "value": "Chat Leaderboard"
   },
   "widgetAuthor": {
-    "label": "Author: Fabi Parpinelli",
+    "label": "Author: Fabi Streams",
     "group": "About",
     "type": "hidden",
     "value": "Fabi_Streams"
