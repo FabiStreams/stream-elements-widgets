@@ -1,0 +1,99 @@
+* {
+  font-family: '{fabistreams_goalbars_fontFamily}', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: {fabistreams_goalbars_TextColor};
+  box-sizing: border-box;
+  font-size: {fabistreams_goalbars_goalFontSize}px;
+}
+
+main {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.row, .column {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.goal-box {
+  --stripeSize: 35px;
+  border: 2px solid {fabistreams_goalbars_borderColor};
+  border-radius: {fabistreams_goalbars_borderRadius}px;
+  box-shadow: 2px 2px 1px {fabistreams_goalbars_shadowColor};
+  padding: 10px 16px;
+  background-color: {fabistreams_goalbars_backgroundColor};
+}
+
+#sub {
+  padding-right: 8px;
+}
+
+#follow {
+  padding-left: 8px;
+}
+
+.label-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  padding-left: 2px;
+  font-size: {fabistreams_goalbars_fontSize}px;
+}
+
+.amount-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount {
+  padding-right: 5px;
+}
+
+.bar-box {
+  display: flex;
+  min-height: 30px;
+  padding: 7px;
+  background-color: {fabistreams_goalbars_barBoxColor};
+  box-shadow: inset 2px 2px 8px {fabistreams_goalbars_barBoxShadowColor};
+  border-radius: {fabistreams_goalbars_barBoxBorderRadius}px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  color: {fabistreams_goalbars_backgroundBarColor};
+  width: 0%;
+  background-color: {fabistreams_goalbars_backgroundBarColor};
+  border-radius: {fabistreams_goalbars_barBorderRadius}px;
+  box-shadow: inset 2px 5px 10px 1px {fabistreams_goalbars_barShadowColor};
+}
+
+.complete .bar {
+  box-shadow: inset 2px 5px 10px 1px {fabistreams_goalbars_completeBarShadowColor};
+  background-color: {fabistreams_goalbars_completeBarColor};
+}
+
+@keyframes gradientShiftDiagonal {
+  from { background-position: 100% 100%; }
+  to { background-position: 0 0; }
+}
