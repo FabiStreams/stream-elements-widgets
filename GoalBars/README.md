@@ -3,3 +3,4 @@ Shows sub and follow goals
 
 ## Features
 - Set a sub and follow goal
+- Set colors and styles
