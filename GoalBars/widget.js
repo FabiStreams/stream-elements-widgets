@@ -18,8 +18,8 @@ window.addEventListener('onWidgetLoad', obj => {
     fieldData,
     session: {
       data: {
-        ['follower-total']: { count: followCount },
-        ['subscriber-total']: { count: subCount },
+        ['follower-{fabistreams_goalbars_optionGoalFollows}']: { count: followCount },
+        ['subscriber-{fabistreams_goalbars_optionGoalSubs}']: { count: subCount },
       }
     }
   } = obj.detail
