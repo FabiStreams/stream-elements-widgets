@@ -5,6 +5,7 @@
 
 ## Tutorial
 
+How to Use: Every widget should be stored in its own folder, inside of which should contain a widget.html, a widget.js, widget.css and a widget.json file.
 I have made an [in-depth YouTube tutorial](https://www.youtube.com/watch?v=wWexB_7ZvEA) that goes over all of the various features and customizations!
 
 ## Features
