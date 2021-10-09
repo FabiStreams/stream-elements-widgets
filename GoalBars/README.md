@@ -5,7 +5,7 @@
 
 ## Tutorial
 
-I have made an [in-depth YouTube tutorial](https://www.youtube.com/channel/UCPQXkRfmyJrP7ad7xRUY5BA) that goes over all of the various features and customizations!
+I have made an [in-depth YouTube tutorial](https://www.youtube.com/watch?v=wWexB_7ZvEA) that goes over all of the various features and customizations!
 
 ## Features
 ### Appearance Customization 🎨
