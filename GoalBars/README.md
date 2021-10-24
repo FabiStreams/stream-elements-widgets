@@ -1,7 +1,7 @@
-# Goal Bars v1.0
+# Goal Bars v2.0
 ### Shows sub and follow goals
 
-![Preview of the Goal Bars Fabi_Streams Theme](https://i.imgur.com/6y5mfrF.png)
+![Preview of the Goal Bars Fabi_Streams Theme](https://i.imgur.com/wzTA1Bd.png)
 
 ## Tutorial
 
