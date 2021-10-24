@@ -1,100 +1,91 @@
-* {
-  font-family: '{fabistreams_goalbars_fontFamily}', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: {fabistreams_goalbars_textColor};
-  box-sizing: border-box;
-  font-size: {fabistreams_goalbars_goalFontSize}px;
-}
-
 main {
-  color: {fabistreams_goalbars_TextColor};
   box-sizing: border-box;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: {main_box_height}px;
+  width: 95%;
+  margin: 5px;
+  border: {main_border_size}px solid {main_border_color};
+  border-radius: 20px;
+  box-shadow: {main_shadow_size} {main_shadow_color}, inset {main_inset_shadow_size} {main_inset_shadow_color};
+  padding: {main_box_padding}px;
+  background-color: {main_backgrond_color};
+}
+.goal_title { 
+  float: left;
+  color: {main_title_color};
+  font-size: {main_title_size}px;
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  text-shadow: {main_title_shadow_size} {main_title_shadow_color};
+  margin: 0 0 0 10px;
+  -webkit-text-stroke: {main_title_border_size}px {main_title_border_color};
+}
+#progress { 
+  float: left;
+  font-family: poppins, sans-serif;
+  font-size: {progress_font_size}px;
+  line-height: 23px;
+  color: {progress_font_color};
+  font-weight: bold;
   display: flex;
-  align-items: flex-end;
-  padding: 30px;
-}
-
-.row, .column {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.row {
-  flex-direction: row;
-}
-
-.column {
   flex-direction: column;
-}
-
-.goal-box {
-  --stripeSize: 35px;
-  border: 2px solid {fabistreams_goalbars_borderColor};
-  border-radius: {fabistreams_goalbars_borderRadius}px;
-  box-shadow: 2px 2px 1px {fabistreams_goalbars_shadowColor};
-  padding: 10px 16px;
-  background-color: {fabistreams_goalbars_backgroundColor};
-}
-
-#sub {
-  padding-right: 8px;
-}
-
-#follow {
-  padding-left: 8px;
-}
-
-.label-box {
-  display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  width: 97%;
   align-items: center;
+  justify-content: flex-end; center; 
+  padding: {progress_padding}px; 
+  margin: 5px;
+  -webkit-text-stroke: {progress_title_border_size}px {progress_title_border_color};
+  border: {progress_border_size}px solid {progress_border_color};
+  background-color: {progress_background_color};
+  border-radius: {progress_border_radius}px;
+  box-shadow: {progress_shadow_size} {progress_shadow_color}, inset {progress_inset_shadow_size} {progress_inset_shadow_color};
 }
-
-.label {
-  padding-left: 2px;
-  font-size: {fabistreams_goalbars_fontSize}px;
+  #progress label {   
+    align-self: flex-end;
+    border-radius: 40px;
+    background: #a54bc6;
+    display: flex;
 }
-
-.amount-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  #progress #bar {  
+    width: 93%;
+    height: 93%;
+    padding: {loading_padding}px;
+    border: {loading_border_size}px solid {loading_border_color};
+    border-radius: {loading_border_radius}px;
+    background: {loading_inner_background_color};
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    flex-wrap: wrap; 
+    padding: {loading_padding_inner}px;
 }
-
-.amount {
-  padding-right: 5px;
+    #progress #bar::before, #progress #bar .loading { 
+      color: {progress_font_inner_color};
+      content: '';
+      background: rgba(23, 23, 23, 0.6);
+      border-radius: {loading_border_radius}px;
+      width: 93%;
+      height: 93%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -2; 
 }
-
-.bar-box {
-  display: flex;
-  min-height: 30px;
-  padding: 7px;
-  background-color: {fabistreams_goalbars_barBoxColor};
-  box-shadow: inset 2px 2px 8px {fabistreams_goalbars_barBoxShadowColor};
-  border-radius: {fabistreams_goalbars_barBoxBorderRadius}px;
-  margin-top: 5px;
-  overflow: hidden;
+    #progress #bar .loading { 
+      background-color: {loading_background_color};
+      border: {loading_inner_border_size}px solid {loading_inner_border_color};
+      box-shadow: {loading_shadow_size} {loading_shadow_color}, inset {loading_inset_shadow_size} {loading_inset_shadow_color};
+      min-width: 15%;
+      width: 15%;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      transition: .5s all ease-in-out; 
 }
-
-.bar {
-  color: {fabistreams_goalbars_backgroundBarColor};
-  width: 0%;
-  background-color: {fabistreams_goalbars_backgroundBarColor};
-  border-radius: {fabistreams_goalbars_barBorderRadius}px;
-  box-shadow: inset 2px 5px 10px 1px {fabistreams_goalbars_barShadowColor};
-}
-
-.complete .bar {
-  box-shadow: inset 2px 5px 10px 1px {fabistreams_goalbars_completeBarShadowColor};
-  background-color: {fabistreams_goalbars_completeBarColor};
-}
-
-@keyframes gradientShiftDiagonal {
-  from { background-position: 100% 100%; }
-  to { background-position: 0 0; }
+      #progress #bar .loading .amount {
+        position: relative;
+        padding-right: 1em; 
 }
