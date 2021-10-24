@@ -1,169 +1,283 @@
-{
-    "fabistreams_goalbars_titileSubs": {
-    "label": "Title Subscribers",
-    "group": "Fields",
-    "type": "text",
-    "value": "Subs"
+{  
+  "goal_type": {
+  "group": "General Options",
+  "type": "dropdown",
+  "label": "Goal Type",
+  "value": "subscriber",
+  "options": {
+    "follower": "Followers",
+    "subscriber": "Subscribers",
+    "cheer": "Cheers",
+    "tip": "Donations"
+  }
+}, 
+  "goal_title": {
+  "group": "General Options",
+  "type": "text",
+  "label": "Goal Title",
+  "value": "Subscribers"
+},  
+ "goal_period": {
+  "group": "General Options",
+  "type": "dropdown",
+  "label": "Goal Period",
+  "value": "total",
+  "options": {
+    "goal": "Goal",
+    "total": "Total",
+    "month": "Month",
+    "week": "Weekend",
+    "session": "Session"
+  }
+},   
+  "amount": {
+  "group": "General Options",
+  "type": "number",
+  "label": "Goal Amount",
+  "value": 15
+},  
+  "main_box_height": {
+  "group": "Widget Box Style",
+  "label": "Widget Box Size Height (px)",
+  "type": "number",
+  "value": 250
+},  
+  "main_box_padding": {
+  "group": "Widget Box Style",
+  "label": "Widget Box Padding (px)",
+  "type": "number",
+  "value": 30
+},  
+  "main_title_size": {
+  "group": "Widget Box Style",
+  "label": "Title Font Size (px)",
+  "type": "number",
+  "value": 50
+},  
+  "main_title_border_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Title Border Color",
+  "value": "#000000"
+}, 
+  "main_title_border_size": {
+  "group": "Widget Box Style",
+  "label": "Title Border Size (px)",
+  "type": "number",
+  "value": 0
+}, 
+  "main_title_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Title Font Color",
+  "value": "#30f8f1"
+},   
+  "main_title_shadow_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Title Font Shadow Color",
+  "value": "#e61a80"
+},  
+  "main_title_shadow_size": {
+  "group": "Widget Box Style",
+  "type": "text",
+  "label": "Title Font Shadow Size",
+  "value": "3px 3px 1px"
+},  
+  "main_backgrond_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Widget Box Background Color",
+  "value": "#621e7f"  
 },
-  "subGoal": {
-    "type": "number",
-    "label": "Subscriber Goal",
-    "value": 1,
-    "min": 0,
-    "step": 1
+  "main_border_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Widget Box Border Color",
+  "value": "#e61a80"
+}, 
+  "main_border_size": {
+  "group": "Widget Box Style",
+  "type": "number",
+  "label": "Widget Box Border Size (px)",
+  "value": 3
+},   
+  "main_shadow_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Widget Box Shadow Color",
+  "value": "#e61a80"
 },
-    "fabistreams_goalbars_optionGoalSubs": {
-    "type": "dropdown",
-    "label": "Choose an option Goal Subs:",
-    "value": "total",
-    "options": {
-      "total": "total",
-      "month": "month",
-      "session": "session"
-    }
-  },
-    "fabistreams_goalbars_titileFollows": {
-    "label": "Title Follows",
-    "group": "Fields",
-    "type": "text",
-    "value": "Follows"
-  },  
-  "followGoal": {
-    "type": "number",
-    "label": "Follower Goal",
-    "value": 1,
-    "min": 0,
-    "step": 1
-  },
-    "fabistreams_goalbars_optionGoalFollows": {
-    "type": "dropdown",
-    "label": "Choose an option Goal Follows:",
-    "value": "total",
-    "options": {
-      "total": "total",
-      "month": "month",
-      "session": "session"
-    }
-  },
-    "fabistreams_goalbars_fontFamily": {
-    "label": "Font Family",
-    "group": "Box Style",
-    "type": "text",
-    "value": "Poppins"
-  },
-    "fabistreams_goalbars_fontSize": {
-    "label": "Font Size (px)",
-    "group": "Box Style",
-    "type": "number",
-    "value": 25,
-    "min": 1,
-    "step": 1
-  },
-    "fabistreams_goalbars_goalFontSize": {
-    "label": "Goal Font Size (px)",
-    "group": "Box Style",
-    "type": "number",
-    "value": 25,
-    "min": 1,
-    "step": 1
-  },
-    "fabistreams_goalbars_borderRadius":{
-    "label": "Box Rounded Corner Size (px)",
-    "group": "Box Style",
-    "type": "number",
-    "value": 20,
-    "min": 0,
-    "step": 1
-  }, 
-    "fabistreams_goalbars_barBorderRadius": {
-    "label": "Bar Box Rounded Corner Size (px)",
-    "group": "Box Style",
-    "type": "number",
-    "value": 20,
-    "min": 0,
-    "step": 1
-  },
-    "fabistreams_goalbars_barBoxBorderRadius": {
-    "label": "Bar Rounded Corner Size (px)",
-    "group": "Box Style",
-    "type": "number",
-    "value": 20,
-    "min": 0,
-    "step": 1
-  },  
-    "fabistreams_goalbars_textColor": {
-    "type": "text",
-    "label": "Text Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#30f8f1"
-  },
-    "fabistreams_goalbars_backgroundColor": {
-    "type": "text",
-    "label": "Box Background Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#4a0e63"
-  },
-    "fabistreams_goalbars_borderColor": {
-    "type": "text",
-    "label": "Box Border Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#e61a80"
-  },
-    "fabistreams_goalbars_shadowColor": {
-    "type": "text",
-    "label": "Box Shadow Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#e61a80"
-  },
-    "fabistreams_goalbars_barBoxColor": {
-    "type": "text",
-    "label": "Bar Background Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#a54bc6"
-  },
-    "fabistreams_goalbars_barBoxShadowColor": {
-    "type": "text",
-    "label": "Bar Shadow Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#a54bc6"
-  },
-    "fabistreams_goalbars_backgroundBarColor": {
-    "type": "text",
-    "label": "Goal Background Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#dc81fd"
-  },
-    "fabistreams_goalbars_barShadowColor": {
-    "type": "text",
-    "label": "Goal Shadow Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "rgba(255, 255, 255, 0.4)"
-  },
-  
-    "fabistreams_goalbars_completeBarColor": {
-    "type": "text",
-    "label": "Goal Complete Background Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "#dc81fd"
-  },
-    "fabistreams_goalbars_completeBarShadowColor": {
-    "type": "text",
-    "label": "Goal Complete Shadow Color",
-    "group": "Colors",
-    "type": "colorpicker",
-    "value": "rgba(255, 255, 255, 0.4)"
-  },
+   "main_shadow_size": {
+   "group": "Widget Box Style",
+   "type": "text",
+   "label": "Widget Box Shadow Size",
+   "value": "4px 4px 1px"
+},   
+  "main_inset_shadow_color": {
+  "group": "Widget Box Style",
+  "type": "colorpicker",
+  "label": "Widget Box Inset Shadow Color",
+  "value": "#8e3daf" 
+},
+  "main_inset_shadow_size": {
+  "group": "Widget Box Style",
+  "type": "text",
+  "label": "Widget Box Shadow Size",
+  "value": "5px 5px 10px 1px"
+},
+  "progress_padding": {
+  "group": "Progress Box Style",
+  "label": "Goal Box Padding (px)",
+  "type": "number",
+  "value": 15
+}, 
+  "progress_font_color": {
+  "group": "Progress Box Style",
+  "label": "Goal Font Color",
+  "type": "colorpicker",
+  "value": "#3f1252"
+}, 
+  "progress_font_size": {
+  "group": "Progress Box Style",
+  "label": "Goal Font Size (px)",
+  "type": "number",
+  "value": 50
+},
+  "progress_title_border_color": {
+  "group": "Progress Box Style",
+  "type": "colorpicker",
+  "label": "Title Border Color",
+  "value": "#000000"
+}, 
+  "progress_title_border_size": {
+  "group": "Progress Box Style",
+  "label": "Title Border Size (px)",
+  "type": "number",
+  "value": 0
+}, 
+  "progress_background_color": {
+  "group": "Progress Box Style",
+  "label": "Goal Box Background Color",
+  "type": "colorpicker",
+  "value": "#a54bc6"
+}, 
+  "progress_border_radius": {
+  "group": "Progress Box Style",
+  "label": "Goal Box Border Radius (px)",
+  "type": "number",
+  "value": 100
+},    
+  "progress_border_color": {
+  "group": "Progress Box Style",
+  "type": "colorpicker",
+  "label": "Goal Title Border Color",
+  "value": "#a54bc6"
+},  
+  "progress_border_size": {
+  "group": "Progress Box Style",
+  "label": "Goal Title Border Size (px)",
+  "type": "number",
+  "value": 0
+},    
+  "progress_shadow_color": {
+  "group": "Progress Box Style",
+  "type": "colorpicker",
+  "label": "Goal Box Shadow Color",
+  "value": "#8a37a8"
+},  
+  "progress_shadow_size": {
+  "group": "Progress Box Style",
+  "type": "text",
+  "label": "Goal Box Shadow Size",
+  "value": "3px 3px 0px 0px"
+}, 
+  "progress_inset_shadow_color": {
+  "group": "Progress Box Style",
+  "type": "colorpicker",
+  "label": "Goal Box Inset Shadow Color",
+  "value": "rgba(255, 255, 255, 0.4)"
+},
+  "progress_inset_shadow_size": {
+  "group": "Progress Box Style",
+  "type": "text",
+  "label": "Goal Box Inset Shadow Size",
+  "value": "2px 5px 10px 1px"
+},  
+  "loading_padding_inner": {
+  "group": "Loading Box Style",
+  "label": "Loading Padding (px)",
+  "type": "number",
+  "value": 25
+},  
+  "progress_font_inner_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Font Color",
+  "value": "#3f1252"
+},    
+  "loading_background_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Background Color",
+  "value": "#dc81fd"
+},
+  "loading_inner_background_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Inner Background Color",
+  "value": "transparent"
+}, 
+  "loading_full_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Full Background Color",
+  "value": "#e61a80"
+},
+  "loading_border_radius": {
+  "group": "Loading Box Style",
+  "label": "Loading Border Radius (px)",
+  "type": "number",
+  "value": 100
+},  
+  "loading_border_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Progress Box Border Color",
+  "value": "#8a37a8"
+},  
+  "loading_border_size": {
+  "group": "Loading Box Style",
+  "label": "Progress Box Border Size",
+  "type": "number",
+  "value": 0
+},  
+  "loading_shadow_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Shadow Color",
+  "value": "#8a37a8"
+},  
+  "loading_shadow_size": {
+  "group": "Loading Box Style",
+  "type": "text",
+  "label": "Loading Shadow Size",
+  "value": "2px 2px 2px 0px"
+}, 
+  "loading_inset_shadow_color": {
+  "group": "Loading Box Style",
+  "type": "colorpicker",
+  "label": "Loading Inset Shadow Color",
+  "value": "rgba(255, 255, 255, 0.4)"
+},
+  "loading_inset_shadow_size": {
+  "group": "Loading Box Style",
+  "type": "text",
+  "label": "Loading Inset Shadow Size",
+  "value": "5px 5px 10px 0px"
+},
     "widgetName": {
-    "label": "Goal Bars v1.0",
+    "label": "Goal Bars v2.0",
     "group": "About",
     "type": "hidden",
     "value": "Chat Leaderboard"
