@@ -1,5 +1,5 @@
 # Goal Bars v2.0
-### Shows sub and follow goals
+### Shows Goals: Subscribers, Followers, Donations and Cheers
 
 ![Preview of the Goal Bars Fabi_Streams Theme](https://i.imgur.com/pvMduxm.png)
 
