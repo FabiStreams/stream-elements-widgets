@@ -292,13 +292,13 @@
     "label": "Twitch: twitch.tv/fabi_streams",
     "group": "About",
     "type": "hidden",
-    "value": "3.0.6"
+    "value": "2.0"
   },
   "widgetUpdateUrl": {
-    "label": "Instagram: @fabistreams",
+    "label": "Update: https://bit.ly/fabigoalbar",
     "group": "About",
     "type": "hidden",
-    "value": "https://www.instagram.com/fabistreams/"
+    "value": "https://bit.ly/fabigoalbar"
   },
  "widgetHelp": {
     "label": "Discord: https://bit.ly/discord_fabi",
