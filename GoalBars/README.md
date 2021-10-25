@@ -11,7 +11,7 @@ I have made an [in-depth YouTube tutorial](https://www.youtube.com/watch?v=wWexB
 ## Features
 ### Appearance Customization 🎨
 - You have complete control over all of the styling!
-- Set a sub and follow goal
+- Set a subs, follows, cheers and tips goal
 - Set colors and styles
 
 Hope you all enjoy it! 💖
